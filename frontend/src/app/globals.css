@@ -3,11 +3,25 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --prussian-blue: #00072d;
+  --deep-navy: #001c55;
+  --imperial-blue: #0a2472;
+  --cornflower-ocean: #0e6ba8;
+  --frosted-blue: #a6e1fa;
+  --ice-blue: #cbe4f9;
+  --afterburner: #f97316;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-prussian-blue: var(--prussian-blue);
+  --color-deep-navy: var(--deep-navy);
+  --color-imperial-blue: var(--imperial-blue);
+  --color-cornflower-ocean: var(--cornflower-ocean);
+  --color-frosted-blue: var(--frosted-blue);
+  --color-ice-blue: var(--ice-blue);
+  --color-afterburner: var(--afterburner);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
