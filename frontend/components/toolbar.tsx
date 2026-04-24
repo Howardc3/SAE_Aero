@@ -21,7 +21,7 @@ function Toolbar() {
           href="/about"
           items={[
             { label: 'Our Team', href: '/roster' },
-            { label: 'Exec', href: '/exec' },
+            { label: 'Executives', href: '/exec' },
           ]}
         />
         <DropdownButton

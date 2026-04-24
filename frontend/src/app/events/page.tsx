@@ -1,6 +1,6 @@
 export default function EventsPage() {
   return (
-    <main className="flex flex-1 flex-col items-center bg-zinc-50 px-6 py-12 text-center">
+    <main className="flex flex-1 flex-col items-center bg-ice-blue px-6 py-12 text-center">
       <h1 className="text-4xl font-bold text-prussian-blue">Events</h1>
       <p className="mt-4 max-w-2xl text-lg text-deep-navy">
         Upcoming meetings, work sessions and club events.
