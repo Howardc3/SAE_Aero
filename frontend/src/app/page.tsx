@@ -50,7 +50,7 @@ export default function Home() {
             title="Executives"
             body_text="Meet the current SAE Aero leads"
             link_text="To Execs →"
-            href="/roster"
+            href="/exec"
             bg="bg-zinc-50"
           />
           <SubBoxes
