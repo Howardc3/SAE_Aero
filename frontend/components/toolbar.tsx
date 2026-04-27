@@ -20,7 +20,7 @@ function Toolbar() {
           label="About"
           href="/about"
           items={[
-            { label: 'Our Team', href: '/roster' },
+            { label: 'Our Team', href: '/team' },
             { label: 'Executives', href: '/exec' },
           ]}
         />

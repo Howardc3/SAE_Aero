@@ -54,10 +54,10 @@ export default function Home() {
             bg="bg-zinc-50"
           />
           <SubBoxes
-            title="Support"
-            body_text="Sponsors, alumni, and supporters who make it possible."
-            link_text="To Support →"
-            href="/contact"
+            title="Involvement"
+            body_text="Interested in getting involved or supporting us?"
+            link_text=" Get Involved →"
+            href="/involvement"
             bg="bg-zinc-50"
           />
         </div>
