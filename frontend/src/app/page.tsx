@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col">
 
       {/* Hero / Slideshow */}
-      <section className="relative h-screen bg-iceblue flex flex-col items-center justify-center text-center px-6">
+      <section className="relative h-screen flex flex-col items-center justify-center text-center px-6">
         <p className="text-afterburner uppercase tracking-[0.3em] text-sm mb-4">University of Illinois Urbana-Champaign</p>
         <h1 className="text-6xl font-bold text-prussian-blue mb-6">SAE <span className="text-afterburner">Aero</span></h1>
         <p className="text-imperial-blue text-xl max-w-xl mb-10">
@@ -17,7 +17,7 @@ export default function Home() {
         </p>
 
         {/* Slideshow placeholder */}
-        <div className="absolute inset-0 -z-10 flex items-center justify-center opacity-5">
+        <div className="absolute inset-0 -z-10 flex items-center bg-white justify-center opacity-5">
           <span className="text-prussian-blue" style={{ fontSize: '20rem' }}>✈</span>
         </div>
       </section>
