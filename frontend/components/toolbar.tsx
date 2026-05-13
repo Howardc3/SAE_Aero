@@ -3,8 +3,10 @@ import DropdownButton from './dropdown_button';
 
 function Toolbar() {
   return (
-    <nav className="w-full bg-prussian-blue px-8 py-5 flex items-center justify-between shadow-md">
-      <span className="text-frosted-blue font-bold text-2xl tracking-wide">SAE Aero @ UIUC</span>
+    <nav className="w-full bg-prussian-blue px-8 py-5 flex items-center shadow-md">
+      <div className="flex-1">
+        <span className="text-frosted-blue font-bold text-2xl tracking-wide">SAE Aero @ UIUC</span>
+      </div>
       <div className="flex items-center gap-1">
         <ToolbarButton href="/">Home</ToolbarButton>
         <ToolbarButton href="/events">Events</ToolbarButton>
@@ -29,11 +31,12 @@ function Toolbar() {
           href="/involvement"
           items={[
             { label: 'Recruitment', href: '/recruitment' },
-            { label: 'Reimbursement', href: '/reimbursement' },
             { label: 'Contact Us', href: '/contact' },
           ]}
         />
       </div>
+      {/* Empty div for spacing */}
+      <div className="flex-1" />
     </nav>
   );
 }
